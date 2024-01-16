@@ -22,27 +22,27 @@ Also implement an extension to Bernoulli sampling.
 					AllocOut= _allocOut,
 					InfoOut = 
 );
-/*
-Input 
 
-	Selection (SRS Bern)
-	SampleSize (numeric>0)
-	MinSize (numeric >0)
-	Subdiv (integer >= 1)
-	LogPrint (yes no)
+### Input 
 
-	StratCons : StratID LB UB 
+Selection (SRS Bern)
+SampleSize (numeric>0)
+MinSize (numeric >0)
+Subdiv (integer >= 1)
+LogPrint (yes no)
 
-	StratInfo : StratID Count 
-	VarInfo : StratID VarID Total Variance Aux
+StratCons : StratID LB UB 
+
+StratInfo : StratID Count 
+VarInfo : StratID VarID Total Variance Aux
 
 
-Output
+### Output
 
-	AllocOut : StratId Size
-	AllocOutInfo : StratId Count LB UB Size Obj Variance
-	_ALLOCATIONSTATUS (OK ERROR)
-	_ALLOCATIONObjective (numeric >0) 
-*/
+AllocOut : StratId Size
+AllocOutInfo : StratId Count LB UB Size Obj Variance
+_ALLOCATIONSTATUS (OK ERROR)
+_ALLOCATIONObjective (numeric >0) 
+
 
 ```
