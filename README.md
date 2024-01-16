@@ -22,7 +22,7 @@ Also implement an extension to Bernoulli sampling.
 					AllocOut= _allocOut,
 					InfoOut = 
 );
-
+```
 ### Input 
 
 Selection (SRS Bern)
